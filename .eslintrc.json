@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "@hapi/eslint-config-hapi"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2019
+  },
+  "rules": {
+    "max-len": [
+      "error",
+      {
+        "code": 80
+      }
+    ]
+  }
+}

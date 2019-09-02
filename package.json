@@ -1,0 +1,37 @@
+{
+  "name": "hapi-bootstrap",
+  "version": "0.0.1",
+  "description": "A basic hapi bootstrap template",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "nodemon",
+    "test": "lab -v **/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcklei/hapi-bootstrap.git"
+  },
+  "author": "Marcus Klein",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcklei/hapi-bootstrap/issues"
+  },
+  "homepage": "https://github.com/marcklei/hapi-bootstrap#readme",
+  "dependencies": {
+    "@hapi/hapi": "^18.3.2",
+    "@hapi/joi": "^15.1.1"
+  },
+  "devDependencies": {
+    "@hapi/code": "^6.0.0",
+    "@hapi/eslint-config-hapi": "^12.2.0",
+    "@hapi/eslint-plugin-hapi": "^4.3.4",
+    "@hapi/lab": "^20.2.2",
+    "dotenv": "^8.1.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2"
+  }
+}
